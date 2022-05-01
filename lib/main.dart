@@ -4,7 +4,7 @@ import 'package:google_maps_with_getx/helpers/get_di.dart' as di;
 import 'package:google_maps_with_getx/helpers/routes.dart';
 
 void main() async {
-  // inicializa o Get
+  //  await di.init(); inicializa os Controles
   await di.init();
   runApp(const MyApp());
 }
